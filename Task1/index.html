@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="return validate(event)" class="frm"> <!-- Pass the event object to validate -->
+        <input type="number" id="number" placeholder="Enter a number" required>
+        <br>
+        <input type="submit" value="Submit">
+        <p id="msg"></p> 
+    </form>
+</body>
+</html>

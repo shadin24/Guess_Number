@@ -1,0 +1,62 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background and text styles for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #55bd82;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container styling */
+.frm {
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Input fields styling */
+.frm input[type="number"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit button styling */
+.frm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #699763;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.frm input[type="submit"]:hover {
+    background-color: #64cb69;
+}
+
+/* Message styling */
+#msg {
+    margin-top: 20px;
+    font-size: 14px;
+}
